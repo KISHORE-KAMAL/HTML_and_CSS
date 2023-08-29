@@ -1,0 +1,88 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+/* Card image */
+
+.card
+{
+    /* border: 2px solid red; */
+    background-color: blue;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.625),rgba(0, 0, 0, 0.625)),
+    url("https://bootstrapmade.com/demo/templates/Logis/assets/img/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;          /* put all items however needed and after that put background image */
+    background-attachment: fixed;
+}
+.card .card-content
+{
+    /* border: 2px solid red; */
+    width: 800px;
+    color: white;
+    text-align: center;
+    padding: 120px 40px;
+    margin: auto;
+}
+.card .card-content p
+{
+    margin: 14px;
+    margin-bottom: 44px;
+}
+.card .card-content a
+{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 200px;
+    font-weight: 400;
+    padding: 16px 40px;
+}
+
+/* Banners */
+
+.banner
+{
+    border: 1px solid rgba(103, 96, 96, 0.375);
+    width: 25%;
+    height: 400px;
+    margin: 50px auto;
+    display: inline-block;
+    margin-left: 80px;
+}
+.banner .banner-content
+{
+    padding:  4px 30px;
+    margin-top: 12px;
+    color: rgb(25, 25, 138);
+    font-size: 14px;
+}
+.banner .banner-content p
+{
+    margin-top: 10px;
+    color: black;
+}
+.banner img
+{
+    height: 250px;
+    width: 100%;
+}
+
+
+.head h1
+{
+    text-align: center;
+    text-shadow: 3px 0px 4px coral;
+    font-size: 40px;
+    padding: 40px;
+}

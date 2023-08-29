@@ -1,0 +1,159 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body
+{
+    width: 100%;
+}
+
+.main
+{
+    /* border: 2px solid red; */
+    height: 270px;
+    width: 360px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.main img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main .content
+{
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 0px;
+    /* bottom: 0px; */
+    top: 0px;
+    /* left: 0px; */
+    height: 100%;
+    width: 0%;
+    background-color: rgba(122, 105, 96, 0.6);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.889);
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+.main .content .icons
+{
+    /* border: 2px solid red; */
+    padding-top: 100px;
+    padding-bottom: 61px;
+    padding-left: 140px;
+}
+
+.main .content .icons i
+{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.main .content .details
+{
+    /* border: 2px solid red; */
+    padding: 2px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.main:hover .content
+{
+    
+    width: 100%;
+    
+}
+
+
+
+
+
+.card
+{
+    /* border: 2px solid red; */
+    height: 280px;
+    width: 360px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img
+{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.2s;
+    
+}
+
+.hover-effect
+{
+    /* border: 2px solid green; */
+    position: absolute;
+    bottom: 0px;
+    height: 0%;
+    width: 100%;
+    background-color: #50d8af;
+    color: white;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    transition: height 0.2s;
+    overflow: hidden;
+}
+
+.hover-effect h1
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.hover-effect p
+{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.content1
+{
+    text-align: right;
+    padding-right: 10px;
+    /* border: 2px solid red; */
+}
+
+.hover-effect i
+{
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.494);
+    /* color: rgba(0, 0, 0, 0.521); */
+}
+
+.card:hover .hover-effect
+{
+    height: 110px;
+}
+
+.card:hover img
+{
+    transform: translate(0px,-20px);
+    
+}
+
+
+
+.flex-box
+{
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    display: flex;
+}

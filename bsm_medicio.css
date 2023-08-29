@@ -1,0 +1,109 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+/* body
+{
+    background-color: #e7ecec;
+} */
+
+/* nav bar  */
+
+.main-box
+{
+    background-color: white;
+    /* border: 2px solid red; */
+    height: 80px;
+}
+
+nav
+{
+    display: inline;
+}
+
+nav ul
+{
+    /* border: 2px solid green; */
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li
+{
+    display: inline;
+    font-size: 14px;
+    margin: 0px 14px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.714);
+   font-weight: 600;
+}
+
+img
+{
+    height: 40px;
+    width: 140px;
+    vertical-align: middle;            /* for img in nav bar to come in middle */
+    /* border: 2px solid red; */
+    margin: 20px 90px;
+}
+
+.btn
+{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background-color:#3fbbc0; 
+    color: white;
+}
+
+/* card */
+
+.main-card
+{
+    border: 2px solid white;             /*   if border removed it is changing structure */
+    height: 520px;
+    background-image: url("https://bootstrapmade.com/demo/templates/Medicio/assets/img/slide/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.main-card .main-card-content
+{
+    border-top: 4px solid #3fbbc0;
+    height: 220px;
+    width: 85%;
+    margin: 180px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main-card .main-card-content p
+{
+    margin: 0px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: #555555;
+}
+
+.main-card .main-card-content h1
+{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
